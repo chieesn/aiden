@@ -1,0 +1,94 @@
+body {
+    width:100%;;
+    height: 100vh;
+    margin:0;
+    padding:0;
+  }
+
+ 
+  #title{
+    background-color: #212121;
+    color: white;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0%;
+   
+    text-align: center;
+    font-size: 80px;
+    font-family: SilkaMono-Regular;
+  }
+
+  #wrapper {
+    background-color: white;
+    display: flex;
+    justify-content: end;  
+
+    margin: 0%;
+    
+  }
+
+  #potrait{
+    border-color: #212121;
+    border-style: solid;
+    border-width: 16px;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 6%;
+
+    width: 35%;
+    height: auto;
+  }
+
+  #introduction{
+    font-size: 250%;
+    color: #212121;
+    text-align: center;
+
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 15%;
+    
+    font-family: Trap-SemiBold;
+  }
+
+  #morse{
+    color: white;
+    font-size: 130%;
+    margin-top: 5%;
+    margin-right: 0%;
+  }
+
+  #translate{
+    color: white;
+    text-decoration: none;
+
+    text-align: right;
+    font-size: 170%;
+    font-family: Trap-SemiBold;
+
+    border: 0%;
+    margin-top: 8%;
+    margin-right: 70%;
+    margin-left: -20%;
+  }
+
+  a:visited {
+    color: #212121;
+  }
+  
+  a:active {
+    color: white;
+  }
+
+
+  @font-face {
+    font-family: Trap-SemiBold;
+    src: url('Trap-SemiBold.otf');
+}
+  
+  @font-face {
+    font-family: SilkaMono-Regular;
+    src: url('SilkaMono-Regular.otf');
+  }

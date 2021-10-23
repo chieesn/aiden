@@ -1,67 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <style>
-     @font-face { font-family: Montserrat-Black; src: url('Montserrat-Black.ttf');
-                  font-family: Trap-SemiBold; src:url('Trap-SemiBold.otf'); }
-
-    #title{
-      background-color: #FD5051;
-      color: white;
-
-      padding: 6%;
-      margin: -1% 0% -1% 0%;
-
-      text-align: center;
-      font-size: 80px;
-      font-family: Montserrat-Black;
-
-      
-    }
-
-    #potrait{
-      border-color: #FD5051;
-      border-style: solid;
-      border-width: 20px;
-
-      float: right;
-      margin-right: 1%;
-      margin-top: -12%;
-
-      width: 40%;
-      height: auto;
-    }
-
-    #introduction{
-      font-size: 300%;
-      text-align: center;
-      margin-top: 15%;
-
-      font-family: Trap-SemiBold;
-    }
-
-  </style>
 
   <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-
+   <link rel="stylesheet" href="style.css">
     <title>Aiden</title>
   </head>
 
-  <body style="background-color: black;">
+  <body style="background-color: #212121">
 
-    <div>
     <h1 id="title">
-        <strong>TRA MINH CHIEN  <!--<sub style="font-size: 50%;">1093540</sub>--> </strong>
+        <strong>Cha Ming Zhan  <!--<sub style="font-size: 50%;">1093540</sub>--> </strong>
+
+        <div style="font-size: 35%; text-align: right; margin-right: 31%;">
+          1093540 <div>Web Programming</div>
+        </div>
     </h1>
-    </div>
 
-    <div style="background-color: white; overflow: auto;">
-      <p id="introduction">
-        <img id="potrait" src="keeb.jpg">
-        Hi! My name is Aiden, i'm 20 years old currently a sophomore student in Yuan Ze University, majoring in Informatics 
-      </p>
-    </div>
+    <div id="wrapper">
 
+        <p id="introduction">
+           Hello! My name is Aiden, 20 years old currently a sophomore student at YZU and i'm majoring in Informatics. 
+        </p>
+        <img id="potrait" src="keeb.jpg" alt="This is me!">
+
+    </div>
+    
+    <section>
+      <div style="float: left;">
+        <pre id="morse">
+          "- .... .. ... / .. ... / -- --- .-. ... . / -.-. --- -.. ."
+          ".. / .... --- .--. . / -.-- --- ..- / ..- -. -.. . .-. ... - .- -. -.."
+  
+          <i>This is a special language</i>
+        </pre>
+      </div>
+      
+      <div style="float: right;">
+        <a href="https://morsecode.world/international/translator.html" target="_blank">
+           <p id="translate">you can translate it right here</p>
+        </a>
+      </div>
+    </section>
 
 
   </body>
