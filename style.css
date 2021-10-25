@@ -5,27 +5,29 @@ body {
     padding:0;
   }
 
- 
+ /*--------- title heading ----------*/
   #title{
     background-color: #212121;
     color: white;
 
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     margin: 0%;
    
     text-align: center;
     font-size: 80px;
     font-family: SilkaMono-Regular;
   }
+ /*____________________*/
 
-  #wrapper {
+ /*--------- intro ----------*/
+  .wrapper {
     background-color: white;
     display: flex;
     justify-content: center;  
 
+    width: 100%;
     margin: 0%;
-    
   }
 
   #potrait{
@@ -33,62 +35,104 @@ body {
     border-style: solid;
     border-width: 16px;
 
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-right: 70px;
+    margin: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
 
-    width: 35%;
-    height: auto;
+    min-width: 40%;
   }
 
   #introduction{
 
-    font-size: 50px;
+    font-size: 3vw;
     color: #212121;
     text-align: center;
 
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 10%;
+    margin: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
     
     font-family: Trap-SemiBold;
   }
+ /*____________________*/
 
+/*--------- morse code ----------*/
+  #wrapper2{
+    background-color: #212121;
+    margin: 0%;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
   #morse{
     color: white;
-    font-size: 130%;
-    margin-top: 30px;
-    margin-right: 10%;
+
+    font-size: 2vw;
+    font-family: Trap-SemiBold; 
+    
+    margin: 0%;
+    margin-left: 25%;
+  
+    width: 0%
   }
 
+  .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .translate {
+    background-color: #212121; 
+    color: white; 
+    border: 4px solid white;
+
+    font-family: Trap-SemiBold;
+    font-size: 3vw;
+    margin-left: 30%;
+  }
+  
+  .translate:hover {
+    background-color: white;
+    color: #212121;
+  }
+
+ /*
   #translate{
     border-color: white;
     border-style: solid;
-    border-width: 3px;
+    border-width: 4px;
 
     color: white;
     text-decoration: none;
 
     text-align: center;
-    font-size: 170%;
+    font-size: 50px;
     font-family: Trap-SemiBold;
 
-    margin-top: 50px;
-    margin-right: 170px;
-    margin-left: auto;
+    margin-top: 13%;
 
     padding: 5px;
   }
+ */
+ /*____________________*/
 
-  a:visited {
-    color: #212121;
-  }
-  
-  a:active {
-    color: white;
-  }
+/*--------- hobby ---------*/
+.wrapper3{
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
 
+
+/*--------font--------*/
   @font-face {
     font-family: Trap-SemiBold;
     src: url('Trap-SemiBold.otf');
